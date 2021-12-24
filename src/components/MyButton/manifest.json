@@ -1,0 +1,127 @@
+{
+  "name": "MyButton",
+  "icon": "example-thumbnail.png",
+  "displayName": {
+    "en": "MyButton",
+    "ja": "プラグイン名"
+  },
+  "defaultWidth": 155,
+  "defaultHeight": 44,
+  "minWidth": 100,
+  "props": [
+    {
+      "name": "type",
+      "displayName": {
+        "en": "Type",
+        "ja": "タイプ"
+      },
+      "type": "text",
+      "default": "contained",
+      "control": {
+        "type": "menu",
+        "options": [
+          {
+            "label": "canvas.menuRight.elementTab.button.type.text",
+            "value": "text"
+          },
+          {
+            "label": "canvas.menuRight.elementTab.button.text.outline",
+            "value": "outlined"
+          },
+          {
+            "label": "canvas.menuRight.elementTab.button.text.button",
+            "value": "contained"
+          }
+        ]
+      }
+    },
+    {
+      "name": "text",
+      "displayName": {
+        "en": "Text",
+        "ja": "テキスト"
+      },
+      "type": "text",
+      "default": "Click"
+    },
+    {
+      "name": "icon",
+      "displayName": {
+        "en": "Icon",
+        "ja": "アイコン"
+      },
+      "type": "icon",
+      "default": "plus"
+    },
+    {
+      "name": "primaryColor",
+      "displayName": {
+        "en": "Button Color",
+        "ja": "Button Color"
+      },
+      "type": "color",
+      "default": "@primary"
+    },
+    {
+      "name": "contrastColor",
+      "displayName": {
+        "en": "Icon & Text Color",
+        "ja": "アイコンの色"
+      },
+      "type": "color",
+      "default": "@contrast:primaryColor"
+    },
+    {
+      "name": "upperCase",
+      "displayName": {
+        "en": "Uppercase",
+        "ja": "大文字"
+      },
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "name": "action",
+      "type": "action",
+      "displayName": {
+        "en": "ClickFlow",
+        "ja": "ClickFlow"
+      }
+    },
+    {
+      "name": "backgroundColor",
+      "type": "color",
+      "displayName": {
+        "en": "BackgroundColor",
+        "ja": "BackgroundColor"
+      },
+      "default": "#34A0DD"
+    },
+    {
+      "name": "color",
+      "type": "color",
+      "displayName": {
+        "en": "Text Color",
+        "ja": "Text Color"
+      },
+      "default": "#F9F9F9"
+    },
+    {
+      "name": "borderRadius",
+      "default": 22
+    },
+    {
+      "name": "fontFamily",
+      "default": "Roboto, sans-serif"
+    },
+    {
+      "name": "disable",
+      "displayName": {
+        "en": "Disable",
+        "ja": "Disable"
+      },
+      "type": "boolean",
+      "default": false
+    }
+  ]
+}

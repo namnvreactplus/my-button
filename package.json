@@ -1,0 +1,33 @@
+{
+  "name": "@nocodejapan/mybutton",
+  "description": "Plugin description",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Plugin Author",
+  "scripts": {
+    "start": "click-plugin-cli dev",
+    "login": "click-plugin-cli login",
+    "publish-plugin": "click-plugin-cli publish"
+  },
+  "click": {
+    "logo": "./example-logo.png",
+    "displayName": "myButton",
+    "components": [
+      {
+        "name": "MyButton",
+        "manifest": "./src/components/MyButton/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "click-plugin-cli": "^1.1.0",
+    "react": "^17.0.2",
+    "react-native": "^0.66.4"
+  },
+  "dependencies": {
+    "react-native-paper": "^4.10.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^9.0.0"
+  }
+}
